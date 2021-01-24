@@ -1,0 +1,21 @@
+{
+  "name": "@theisleoffavalon/toolkit",
+  "version": "0.0.0",
+  "description": "Web design components",
+  "license": "MIT",
+  "author": "James Durand",
+  "bugs": {
+    "url": "https://github.com/durandj/toolkit/issues"
+  },
+  "homepage": "https://github.com/durandj/toolkit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/durandj/toolkit.git"
+  },
+  "main": "build/index.js",
+  "module": "build/index.js",
+  "types": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
