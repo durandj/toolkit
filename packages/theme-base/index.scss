@@ -1,0 +1,8 @@
+@use "sanitize.css/sanitize.css";
+@use "@fontsource/source-code-pro";
+
+html,
+body {
+    color: var(--tk_global_font_color);
+    font-family: var(--tk_global_font_family);
+}

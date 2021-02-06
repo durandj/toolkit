@@ -1,0 +1,13 @@
+{
+  "extends": "@theisleoffavalon/tk-tsconfig",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./build/node",
+    "baseUrl": "./",
+    "paths": {
+      "@theisleoffavalon/tk-button/*": [
+        "./src/*",
+      ],
+    },
+  },
+}

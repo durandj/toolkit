@@ -1,0 +1,18 @@
+@use "@theisleoffavalon/tk-theme-base";
+
+// TODO(durandj): color variables and gradients
+
+:root {
+    --tk_global_font_family: "Source Code Pro", monospace;
+    --tk_global_font_color: #000;
+    --tk_global_background-color: #fff;
+
+    --tk_button_padding: 0.75em 1em;
+    --tk_button_margin: 0.25em;
+    --tk_button_default_font_family: var(--tk_global_font_family);
+    --tk_button_default_font_color: var(--tk_global_font_color);
+    --tk_button_default_background-color: var(--tk_global_background);
+    --tk_button_default_border_width: 1px;
+    --tk_button_default_border_style: solid;
+    --tk_button_default_border_color: var(--tk_button_default_font_color);
+}

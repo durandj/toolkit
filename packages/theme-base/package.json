@@ -1,0 +1,28 @@
+{
+  "name": "@theisleoffavalon/tk-theme-base",
+  "version": "0.0.0",
+  "description": "Base theme styles for sites using toolkit",
+  "author": "James Durand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/durandj/toolkit/issues"
+  },
+  "homepage": "https://github.com/durandj/toolkit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/durandj/toolkit.git"
+  },
+  "main": "index.scss",
+  "scripts": {
+    "lint": "stylelint 'index.scss'"
+  },
+  "dependencies": {
+    "@fontsource/source-code-pro": "^4.1.0",
+    "sanitize.css": "^12.0.1"
+  },
+  "devDependencies": {
+    "postcss-scss": "^3.0.4",
+    "stylelint": "^13.9.0",
+    "stylelint-config-sass-guidelines": "^7.1.0"
+  }
+}

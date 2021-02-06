@@ -1,0 +1,19 @@
+{
+  "name": "@theisleoffavalon/tk-prettierrc",
+  "version": "0.0.0",
+  "description": "Shared Prettier config for toolkit packages",
+  "license": "MIT",
+  "author": "James Durand",
+  "bugs": {
+    "url": "https://github.com/durandj/toolkit/issues"
+  },
+  "homepage": "https://github.com/durandj/toolkit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/durandj/toolkit.git"
+  },
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  }
+}

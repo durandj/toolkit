@@ -1,0 +1,16 @@
+{
+  "extends": "@theisleoffavalon/tk-tsconfig",
+  "compilerOptions": {
+    "rootDir": "./",
+    "outDir": "./build",
+    "baseUrl": "./",
+    "paths": {
+      "@theisleoffavalon/tk-theme-console/*": [
+        "./src/*",
+      ],
+    },
+  },
+  "include": [
+    "./**/*.ts",
+  ]
+}

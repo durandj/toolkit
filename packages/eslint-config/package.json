@@ -1,0 +1,36 @@
+{
+  "name": "@theisleoffavalon/eslint-config-tk",
+  "version": "0.0.0",
+  "description": "Shared ESLint config for toolkit packages",
+  "license": "MIT",
+  "author": "James Durand",
+  "bugs": {
+    "url": "https://github.com/durandj/toolkit/issues"
+  },
+  "homepage": "https://github.com/durandj/toolkit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/durandj/toolkit.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "@typescript-eslint/parser": "^4.14.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-config-typestrict": "^1.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-sonarjs": "^0.5.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.19.0",
+    "prettier": "^2.2.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

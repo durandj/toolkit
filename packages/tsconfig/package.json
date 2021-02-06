@@ -1,0 +1,25 @@
+{
+  "name": "@theisleoffavalon/tk-tsconfig",
+  "version": "0.0.0",
+  "description": "Shared Typescript configuration for toolkit web components",
+  "license": "MIT",
+  "author": "James Durand",
+  "bugs": {
+    "url": "https://github.com/durandj/toolkit/issues"
+  },
+  "homepage": "https://github.com/durandj/toolkit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/durandj/toolkit.git"
+  },
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "ts-lit-plugin": "^1.2.1"
+  }
+}

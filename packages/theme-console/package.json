@@ -1,0 +1,36 @@
+{
+  "name": "@theisleoffavalon/tk-theme-console",
+  "version": "0.0.0",
+  "description": "Console theme for toolkit pages",
+  "license": "MIT",
+  "author": "James Durand",
+  "bugs": {
+    "url": "https://github.com/durandj/toolkit/issues"
+  },
+  "homepage": "https://github.com/durandj/toolkit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/durandj/toolkit.git"
+  },
+  "main": "index.scss",
+  "scripts": {
+    "build": "sass --load-path ./node_modules --load-path ./node_modules/@theisleoffavalon/tk-theme-base/node_modules index.scss:index.css",
+    "clean": "rimraf index.css index.css.map",
+    "lint": "stylelint 'index.scss'"
+  },
+  "dependencies": {
+    "@theisleoffavalon/tk-theme-base": "workspace:^0.0.0"
+  },
+  "devDependencies": {
+    "@theisleoffavalon/eslint-config-tk": "workspace:^0.0.0",
+    "@theisleoffavalon/tk-prettierrc": "workspace:^0.0.0",
+    "@theisleoffavalon/tk-tsconfig": "workspace:^0.0.0",
+    "lit-element": "^2.4.0",
+    "postcss-scss": "^3.0.4",
+    "rimraf": "^3.0.2",
+    "sass": "^1.32.5",
+    "stylelint": "^13.9.0",
+    "stylelint-config-sass-guidelines": "^7.1.0",
+    "typescript": "^4.1.3"
+  }
+}
