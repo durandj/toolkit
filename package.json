@@ -18,7 +18,8 @@
   "scripts": {
     "build:storybook": "build-storybook --output-dir build/storybook",
     "clean": "rimraf build",
-    "start": "start-storybook"
+    "start": "start-storybook",
+    "publish": "multi-semantic-release"
   },
   "devDependencies": {
     "@qiwi/multi-semantic-release": "^3.12.5",
