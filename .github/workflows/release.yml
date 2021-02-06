@@ -1,0 +1,42 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  release:
+    name: Build and release packages
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup Node
+        uses: actions/setup-node@v2-beta
+        with:
+          node-version: ^15.8
+
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Node dependencies
+        run: |
+          npm install --global pnpm
+          pnpm install
+      - name: Build
+        run: |
+          pnpm run --recursive build
+      - name: Run linter
+        run: |
+          pnpm run --recursive lint
+      - name: Tests
+        run: |
+          pnpm run --recursive test
+      - name: Create release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          pnpm run publish
